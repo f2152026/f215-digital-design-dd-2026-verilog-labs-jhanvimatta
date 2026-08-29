@@ -18,7 +18,7 @@ module rca(
   output       cout
 );
 
-  wire c1, c2, c3;
+wire c1, c2, c3;
 
 FA_Gate FA0 (
       .a   (a[0]),
@@ -51,7 +51,5 @@ FA_Gate FA0 (
       .sum (sum[3]),
       .cout(cout)
   );
-
-  // TODO: your four FA_Gate instances go here.
 
 endmodule
